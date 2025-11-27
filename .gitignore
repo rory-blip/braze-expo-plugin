@@ -74,5 +74,5 @@ dist/
 
 # build for github distribution
 !plugin/build/
-
+!plugin/node_modules/
 # @end expo-cli
