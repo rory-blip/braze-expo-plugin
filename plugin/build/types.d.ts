@@ -1,0 +1,23 @@
+export type ConfigProps = {
+    androidApiKey: string;
+    iosApiKey: string;
+    baseUrl: string;
+    sessionTimeout?: number;
+    enableSdkAuthentication?: boolean;
+    logLevel?: number;
+    enableGeofence?: boolean;
+    minimumTriggerIntervalInSeconds?: number;
+    enableAutomaticLocationCollection?: boolean;
+    enableAutomaticGeofenceRequests?: boolean;
+    dismissModalOnOutsideTap?: boolean;
+    enableBrazeIosPush?: boolean;
+    enableBrazeIosRichPush?: boolean;
+    enableBrazeIosPushStories?: boolean;
+    iosPushStoryAppGroup?: string;
+    iosRequestPushPermissionsAutomatically?: boolean;
+    enableFirebaseCloudMessaging?: boolean;
+    firebaseCloudMessagingSenderId?: string;
+    androidHandlePushDeepLinksAutomatically?: boolean;
+    iosUseUUIDAsDeviceId?: boolean;
+    iosForwardUniversalLinks?: boolean;
+};
